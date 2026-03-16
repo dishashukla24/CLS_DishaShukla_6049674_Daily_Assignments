@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+        
+        <bean id="emp1" class="com.demo.springassignment.entities.Employee" autowire="byType">
+        <property name="eid" value="12345"></property>
+        <property name="ename" value="Harriet"></property>
+        <property name="esalary" value="40000"></property>
+        <property name="age" value="30"></property>
+
+    </bean>
+    
+    <bean id="sbu1" class="com.demo.springassignment.entities.SBU">
+        <property name="sbuId" value="101"></property>
+        <property name="sbuName" value="Production Services"></property>
+        <property name="sbuHead" value="Kiran Rao"></property>
+       
+    </bean>
+
+</beans>
